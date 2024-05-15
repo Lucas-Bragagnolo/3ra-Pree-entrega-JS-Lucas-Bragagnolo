@@ -1,0 +1,99 @@
+
+.categorias {
+    width: 100%;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 180px);
+    grid-template-areas: 
+    "img1 img1 img1 img1"
+    "img2 img2 img2 img2"
+    "img4 img4 img4 img4"
+    "img5 img5 img5 img5"
+    "img8 img8 img8 img8"; 
+
+    
+
+}
+
+.item-2{              
+    background-size: cover;
+    background-position: center; 
+    box-shadow:
+    5.3px 2.8px 8.2px -55px rgba(0, 0, 0, 0.059),
+    13.3px 7.1px 20.7px -55px rgba(0, 0, 0, 0.084),
+    27.1px 14.5px 42.2px -55px rgba(0, 0, 0, 0.106),
+    55.8px 29.9px 86.9px -55px rgba(0, 0, 0, 0.131),
+    153px 82px 238px -55px rgba(0, 0, 0, 0.19)
+    ;
+    filter: grayscale(100%);
+    display: flex;
+    align-items: end;
+    justify-content: center;               
+    transition: 0.5s;
+}
+.item-2 h3{
+    background-color: $color_ligth;
+    width: 100%;
+    padding: 5px 0px;
+    font-size: 18px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.item-2 h3:hover{
+    background-color: $color_dark;
+    color: $color_ligth;
+}
+
+.item-2:hover {
+    filter: grayscale(0);
+    transition: 0.5s;
+    
+}
+
+/* Linkeo las imagenes a cada item */
+
+.item1 {
+    grid-area: img1;
+    background-image: url(../img/categoria_1.jpg);
+
+}
+
+.item2 {
+    grid-area: img2;
+    background-image: url(../img/categoria_2.jpg);
+
+}
+.item3 {
+    grid-area: img3;
+    background-image: url(../img/categoria_3.jpg);
+
+}
+
+.item4 {
+    grid-area: img4;
+    background-image: url(../img/categoria_4.jpg);
+
+}
+.item5 {
+    grid-area: img5;
+    background-image: url(../img/categoria_5.jpg);
+ 
+}
+
+.item6 {
+    grid-area: img6;
+    background-image: url(../img/categoria_6.jpg);
+
+}
+.item7 {
+    grid-area: img7;
+    background-image: url(../img/categoria_7.jpg);
+ 
+}
+.item8 {
+    grid-area: img8;
+    background-image: url(../img/categoria_8.jpg);
+ 
+}

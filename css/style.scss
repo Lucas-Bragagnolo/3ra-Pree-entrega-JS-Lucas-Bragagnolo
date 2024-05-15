@@ -1,0 +1,31 @@
+// Variables
+// Paleta colores
+
+$color_dark: #222222;
+$color_ligth: #f6f6f6;
+$color_compra: #f54343;
+$color_compra_hover: #d80404;
+$color_verde: #12a152;
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+// Fonts - margenes y estilos de barra de scroll
+@import "config.scss";
+@import "header.scss";
+@import "carousel.scss";
+@import "categorias.scss";
+@import "jumbotron.scss";
+
+//Aquí aplique un For para hacer el bucle de los productos, insertando una variable en el card para dar la foto a cada producto
+@import "tienda.scss";
+@import "footer.scss";
+@import "productoinvididual.scss";
+@import "sucursal.scss";
+@import "carrito.scss";
+@import "mediaquery.scss"
+
+
+

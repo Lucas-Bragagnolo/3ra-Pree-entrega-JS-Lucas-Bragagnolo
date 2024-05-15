@@ -1,0 +1,21 @@
+.jumbotron {
+    background-image: url(../img/jumbotron.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+
+}
+.jumbotron h2{
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+.jumbotron p {
+    text-align: center;
+}
+
+.jumbotron span{
+    font-weight: 900;    
+    font-family: "Alata";
+}

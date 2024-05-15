@@ -1,0 +1,81 @@
+/*MENU */
+    /* top BAR */
+    .carousel-item h3{
+        background-color: $color_dark;
+        color: $color_ligth;
+        font-size: 12px;
+        text-align: center;
+        padding: 10px;
+        margin-bottom: 0px;
+    }
+
+    .navbar {
+        background-color: $color_ligth;
+    }
+    .navbar-brand {
+        font-family: "Alata";
+    }
+    .navbar-brand:hover {
+        transform: scale(1.09);
+        transition: 0.3s;
+    }
+
+    .navbar-toggler {
+        border: 0px;
+    }
+    .navbar-toggler:hover {
+        transform: scale(1.1);
+        transition: 0.3s
+    }
+
+
+
+    .navbar a.navbar-brand{
+        font-size: 35px;
+        font-weight: bold;
+    }
+
+    .navbar-nav{
+        width: 70%;        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    /* NAV BAR */
+    .navbar-collapse {
+        font-size: 20px;
+        transition: 0.2s;
+    }
+
+    .navbar-collapse .active{
+        font-weight: 800;
+        
+    }
+
+    .navbar-collapse a:hover{
+        transform: scale(1.05);
+        font-weight: bold;
+        transition: 0.2s;
+    }
+
+    .boton-accion{
+        
+        height: 40px;
+        width: 40px;
+        background-color: $color_ligth;
+        color: $color_dark;
+        text-align: left;
+        display: inline-block;
+        font-size: 20px;
+        line-height: 40px;
+        border-radius: 50%;
+        box-shadow: 0 0 2px black;
+        padding: 0px 10px;
+        margin-right: 5px;
+        text-align: center;
+        
+    }
+    .boton-accion:hover{
+        background-color: $color_dark;
+        color: $color_ligth;
+    }

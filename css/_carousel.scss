@@ -1,0 +1,48 @@
+    /* CAROUSEL */
+    .carousel-principal{
+        margin-top: 50px;
+    }
+    .img1 {
+        background-image: url(../img/slider_1.jpg);
+        background-position: center;
+        height: 90vh;
+        background-size: cover;
+    }
+    .img2 {
+        background-image: url(../img/slider_2.jpg);
+        background-position: center;
+        height: 90vh;
+        background-size: cover;
+    }
+    .img3 {
+        background-image: url(../img/slider_3.jpg);
+        background-position: center;
+        height: 90vh;
+        background-size: cover;
+    }
+    .carousel-caption {
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 20px;
+        width: 50%;
+        text-align: left;
+    }
+    .carousel-caption h2,h1 {
+        text-align: left;
+        font-size: 50px;
+        font-family: "Alata", sans-serif;
+        font-weight: 400;
+        font-style: normal;    
+        background-color: rgba(0, 0, 0, 0.0);   
+    }
+    .carousel-caption p{
+        text-align: left;
+
+    }
+
+    .carousel-caption a {
+        background-color: $color_ligth;
+        color: $color_dark;
+        padding: 10px;
+        text-align: left;
+        text-decoration: none;
+    }

@@ -1,0 +1,27 @@
+/* Carrito */
+.producto-carrito {
+    display: flex;
+}
+.producto-carrito h4 {
+    font-size: 20px;
+}
+
+.producto-carrito .producto-carrito-detalle{
+    padding: 10px;
+}
+.producto-carrito .form-select {
+    margin-bottom: 10px;
+    width: 30%;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.producto-carrito-img{
+    width: 40%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 0;
+}
+.producto-carrito1{
+    background-image: url(../img/producto_vajilla.jpg);
+}

@@ -1,0 +1,49 @@
+footer  {
+    text-align: center;
+    background-color: #333333;
+    color:$color_ligth;
+    padding: 20px 20px 5px 20px;
+}
+.momo {
+    font-family: "Alata";
+    font-weight: bold;
+    font-size: 25px;
+    padding: 0px;
+}
+
+.logo-footer {
+    width: 55%;
+}
+
+footer ul{
+    list-style-type: none;        
+    text-align: left;
+    padding: 0px;
+}
+
+footer a{
+    text-decoration: none;
+    text-align: left;
+    color: $color_ligth;
+}
+
+footer h3 {    
+    margin-top: 20px;
+    font-weight: 600;   
+    text-align: left;
+}
+.copy{
+    background-color: $color_ligth;
+    color:$color_dark;
+    text-align: center;
+    padding: 15px;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.redes a:hover{
+    border: 2px solid $color_ligth;
+}

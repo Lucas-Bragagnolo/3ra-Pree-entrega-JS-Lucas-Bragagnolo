@@ -1,0 +1,70 @@
+/* PRODUCTO INDIVIDUAL */
+.volver {
+    text-decoration: none;
+    color:$color_dark;
+
+}
+.filtro-rubro {
+    margin-bottom: 10px;
+    
+}
+.filtro-rubro a {
+    text-decoration: none;
+    
+}
+.producto {
+    margin-top: 150px;
+}
+
+.producto .form-select {
+    margin-bottom: 10px;
+    width: 20%;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.producto .carousel-inner {
+    height: 400px;
+}
+.detalle-producto{
+    padding: 20px;
+}
+.precio-dash{
+    text-decoration: line-through;
+    font-size: 16px;
+}
+.detalle-producto .precio{
+    font-size: 40px;
+}
+.btn {
+    padding: 10px 20px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+.btn-primary{
+    background-color: $color_compra;
+    border: 0px;
+    transition: 0.2s;
+
+}
+
+.bg-dark{
+    background-color: #333333;
+}
+
+.btn-primary:hover {
+    transform: scale(1.03);
+    background-color: $color_compra_hover;
+}
+
+.btn-secondary{
+    background-color: $color_ligth;
+    border: 2px solid $color_compra;
+    color: $color_compra;
+}
+
+.btn-secondary:hover {
+    transform: scale(1.03);
+    background-color: $color_verde;
+    border: 0px solid $color_verde;
+}

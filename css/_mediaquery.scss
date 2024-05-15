@@ -1,0 +1,47 @@
+@media only screen and (min-width: 768px) {
+    .categorias {
+        width: 100%;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(4, 180px);
+        grid-template-areas: 
+        "img1 img1 img2 img2"
+        "img1 img1 img2 img2"
+        "img4 img8 img5 img5"      
+        "img4 img8 img5 img5";   
+    }
+    .card {
+        width: 32%;
+    }
+    .card-masvendido {
+        width: 100%;
+    }
+    .card-prod-relacionado {
+        width: 22%;
+    }
+
+    .card-img{
+        height: 250px;
+    }
+    .jumbotron h2{
+        font-weight: bold;
+        font-size: 40px;
+        text-align: left;
+    }
+    .jumbotron p {
+        text-align: left;
+    }
+    .logo-footer {
+        width: 20%;
+    }
+    .filtros {
+        width: 100%;
+    }
+
+    #filtros_colapse {
+        display: block !important;
+    }
+
+    .hidden-desktop{
+        display: none;
+    }
+}
