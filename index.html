@@ -16,6 +16,14 @@
 
     <link rel="icon" href="./img/icono.png" type="image/png">
 
+    <!-- Sweet Alert -->
+       <!-- Sweet Alert -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.13.1/dist/sweetalert2.all.min.js"></script>
+  
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.13.1/dist/sweetalert2.min.css" rel="stylesheet">
+    <!-- toastify -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
     <!-- owl libreria cdnjs -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -69,11 +77,9 @@
                     <a class="nav-link" href="./pages/contacto.html">Contacto</a>
                   </li>
                 </ul>
-                <form class="d-flex">
-                  <input class="form-control me-2" type="text" placeholder="¿Qué Buscás?">
-                  <a href="#" class="boton-accion"><i class="fa-solid fa-magnifying-glass"></i></a>
-                  <a href="#" class="boton-accion" data-bs-toggle="offcanvas" data-bs-target="#carrito"><i class="fa-solid fa-shopping-cart"></i></a>
-                </form>
+                <a href="#" class="boton-accion" data-bs-toggle="offcanvas" data-bs-target="#carrito"><i class="fa-solid fa-shopping-cart"></i>
+                  <span id="carrito-badge" class="badge bg-danger rounded-circle badge-carrito" style="display: none;">0</span>
+                </a> 
               </div>
             </div>
           </nav>
@@ -81,14 +87,12 @@
 <!-- Carousel -->
 <section class="carousel-principal">
     <div id="demo" class="carousel slide" data-bs-ride="carousel">
-
         <!-- Indicators/dots -->
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
           <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
           <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-        </div>
-      
+        </div>      
         <!-- The slideshow/carousel -->
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -128,116 +132,11 @@
 </section>
 
 
-<!-- Categorías -->
-    <section class="categorias container-fluid">
-            
-            <div class="item-2 item1" data-aos="fade-up">                
-                <h3>Vajillas</h3>
-            </div>
-            
-
-            <div class="item-2 item2" data-aos="fade-up">
-                <h3>Home & Deco</h3>
-            </div>
-            <div class="item-2 item4" data-aos="fade-up">
-                <h3>Outdoor</h3>
-            </div>
-            <div class="item-2 item8" data-aos="fade-up">
-                <h3>Plantas</h3>
-            </div>
-            
-            <div class="item-2 item5" data-aos="fade-up">
-                <h3>Cocina</h3>
-            </div>
-
-            
-    </section>  
     <section class="productos-destacados">
-        <h3>Lo más vendido</h3>
-        <div class="owl-carousel owl-theme" data-aos="fade-up">
-          <div class="item">
-            <div class="card-masvendido">
-              <a href="./pages/producto-individual.html">
-                <div class="card-img card1">
-
-                </div>
-                <div class="precio-item">
-                    <h4>$25.000</h4>
-                </div>                
-                <div class="titulo-item">
-                    <h4>Kit Parrilla 4 piezas</h4>                
-                </div>
-              </a>  
-            </div>
-          </div>
-          <div class="item">            
-            <div class="card-masvendido">
-            <a href="./pages/producto-individual.html">  
-            <div class="card-img card2"></div>
-              <div class="precio-item">
-                <h4>$28.500</h4>
-              </div>                
-              <div class="titulo-item">
-                <h4>Alocaccia maceta 12l</h4>                
-              </div>
-            </a>
-          </div> 
-        </div>
-          <div class="item">
-            <div class="card-masvendido">
-              <a href="./pages/producto-individual.html"> 
-                <div class="card-img card3"></div>
-                <div class="precio-item">
-                  <h4>$8.500</h4>
-                </div>                
-                <div class="titulo-item">
-                  <h4>Set Tazas Cerámica 6 piezas</h4>                
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="item">            
-            <div class="card-masvendido">
-            <a href="./pages/producto-individual.html"> 
-              <div class="card-img card4"></div>
-              <div class="precio-item">
-                <h4>$112.700</h4>
-              </div>                
-              <div class="titulo-item">
-                <h4>Sillon Madera Nordico</h4>                
-              </div>
-            </a>
-          </div> </div>
-          <div class="item">
-            <div class="card-masvendido">
-              <a href="./pages/producto-individual.html"> 
-                <div class="card-img card5"></div>
-                <div class="precio-item">
-                  <h4>$412.700</h4>
-                </div>                
-                <div class="titulo-item">
-                  <h4>Sofá 3 Cuerpos Gris</h4>                
-                </div>
-              </a>
-            </div> 
-          </div>
-          <div class="item">
-            <div class="card-masvendido">
-              <a href="./pages/producto-individual.html"> 
-                <div class="card-img card6"></div>
-                <div class="precio-item">
-                  <h4>$42.700</h4>
-                </div>                
-                <div class="titulo-item">
-                  <h4>Velador Mamadie</h4>                
-                </div>
-              </a>
-            </div> 
-          </div>
-        </div>
-        </div>
+        <h3>Lo más vendido</h3>                 
+            <div class="lista-productos container" id="productosDestacados" data-aos="fade-up"></div>
     </section>
-    <section>
+
         <div class="mt-4 p-5 jumbotron text-white ">
             <h2>Dale vida a tu <span>HOGAR</span></h2>
             <p>Todo lo que buscás en <span>MOMO</span></p>
@@ -245,67 +144,24 @@
     </section>
 
     <!-- Offcanvas Sidebar -->
-    <div class="offcanvas offcanvas-end" id="carrito">
+    <div class="offcanvas offcanvas-end p-2" id="carrito">
       <div class="offcanvas-header">
-        <h3 class="offcanvas-title">Carrito de compras</h3>
+        <h3 class="offcanvas-title">Carrito de compras</h3>        
         <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
       </div>
-      <div class="offcanvas-body">
-        <div class="producto-carrito">
-          <div class="producto-carrito-img producto-carrito1 border"></div>
-          <div class="producto-carrito-detalle">
-            <h4>Set vajilla 6 piezas + platos</h4>
-          <div class="producto-carrito-cantidad">          
-            <p>cantidad:<select class="form-select" value="1">                  
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-          </select><a href="#" class="boton-eliminar"><i class="fa-solid fa-trash-can"></i></a></p>
-          </div>
-          
-          </div>
-          
+
+      <div class="offcanvas-body">        
+        <div class="carrito" id="carrito">
+          <div id="carritoItems"></div>
         </div>
-        <hr>
-        <div class="producto-carrito">
-          <div class="producto-carrito-img producto-carrito1 border"></div>
-          <div class="producto-carrito-detalle">
-            <h4>Set vajilla 6 piezas + platos</h4>
-          <div class="producto-carrito-cantidad">          
-            <p>cantidad:<select class="form-select" value="1">                  
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-          </select><a href="#" class="boton-eliminar"><i class="fa-solid fa-trash-can"></i></a></p>
-          </div>
-          
-          </div>
-          
-        </div>
-        <hr>
-        <div class="producto-carrito">
-          <div class="producto-carrito-img producto-carrito1 border"></div>
-          <div class="producto-carrito-detalle">
-            <h4>Set vajilla 6 piezas + platos</h4>
-          <div class="producto-carrito-cantidad">          
-            <p>cantidad:
-            <select class="form-select" value="1">                  
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-          </select><a href="#" class="boton-eliminar"><i class="fa-solid fa-trash-can"></i></a></p>
-          </div>
-          
-          </div>
-          
-        </div>
-        <hr>
-        <button class="btn btn-secondary" type="button">ir al carrito</button>
+      </div>
+      <div class="p-2" id="totalCarrito"></div>
+      <div class="p-2">
+        <button class="btn btn-carrito" type="button">Limpiar Carrito</button>
+        <button class="btn btn-info" type="button">Pagar!</button>
       </div>
     </div>
+
     <footer>
       <div class="container">
         <div class="row">
@@ -340,7 +196,7 @@
     <p class="copy">Diseñado por Lucas Bragagnolo</p>
     <!-- aos -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="js/wow.min.js"></script>
+     <script src="js/wow.min.js"></script> 
     <script>
     new WOW().init();
     </script>
@@ -370,6 +226,14 @@
               items:4
           }
       }
-  })</script>    
+  })</script>   
+    <!-- toastify -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+  <!-- Mis Scripts -->
+  <script src="../js/arraysObjetos.js"></script>
+  <script src="./js/main.js"></script> 
+  <script src="./js/carrito.js"></script>  
+  <script src="./js/librerias.js"></script>  
+
   </body>
 </html>
