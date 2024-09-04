@@ -62,7 +62,7 @@ function mostrarCarrito() {
       item.className = 'carrito-item';
       const precioTotal = producto.precio * producto.cantidad;
       item.innerHTML = `
-          <div class="producto-carrito-img"><img src=".${producto.imagen}" alt="imagen-${producto.nombre}" ></div>
+          <div class="producto-carrito-img"><img src="${producto.imagen}" alt="imagen-${producto.nombre}" ></div>
           <div class="producto-carrito-detalle">
             <h5>${producto.nombre}</h5>
             <div class="producto-carrito-cantidad"> 
