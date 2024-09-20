@@ -1,0 +1,111 @@
+
+[
+  {
+    "id": 1,
+    "categoria": 1,
+    "precio": 22.99,
+    "descripcion": "Set parrilla 6 piezas",
+    "img": "producto1.jpg",
+    "destacado": true,
+    "cantidad": 0
+  },
+  {
+    "id": 2,
+    "categoria": 10,
+    "precio": 12.99,
+    "descripcion": "Alocacia c/ Maceta",
+    "img": "producto2.jpg",
+    "destacado": false,
+    "cantidad": 0
+  },
+  {
+    "id": 3,
+    "categoria": 3,
+    "precio": 59.99,
+    "descripcion": "Set Vajilla Cerámica",
+    "img": "producto3.jpg",
+    "destacado": false,
+    "cantidad": 0
+  },
+  {
+    "id": 4,
+    "categoria": 10,
+    "precio": 29.99,
+    "descripcion": "Sillon madera exterior",
+    "img": "producto4.jpg",
+    "destacado": false,
+    "cantidad": 0
+  },
+  {
+    "id": 5,
+    "categoria": 2,
+    "precio": 79.99,
+    "descripcion": "Sofá 3 cuerpos gris",
+    "img": "producto5.jpg",
+    "destacado": false,
+    "cantidad": 0
+  },
+  {
+    "id": 6,
+    "categoria": 4,
+    "precio": 14.99,
+    "descripcion": "Velador Maddie",
+    "img": "producto6.jpg",
+    "destacado": true,
+    "cantidad": 0
+  },
+  {
+    "id": 7,
+    "categoria": 3,
+    "precio": 24.99,
+    "descripcion": "Bufanda de lana",
+    "img": "producto7.jpg",
+    "destacado": false,
+    "cantidad": 0
+  },
+  {
+    "id": 8,
+    "categoria": 1,
+    "precio": 49.99,
+    "descripcion": "Photus c/ Maceta",
+    "img": "producto8.jpg",
+    "destacado": true,
+    "cantidad": 0
+  },
+  {
+    "id": 9,
+    "categoria": 4,
+    "precio": 9.99,
+    "descripcion": "Cinturón de cuero",
+    "img": "producto9.jpg",
+    "destacado": false,
+    "cantidad": 0
+  },
+  {
+    "id": 10,
+    "categoria": 2,
+    "precio": 69.99,
+    "descripcion": "Sandalias de verano",
+    "img": "producto10.jpg",
+    "destacado": false,
+    "cantidad": 0
+  },
+  {
+    "id": 11,
+    "categoria": 3,
+    "precio": 34.99,
+    "descripcion": "Guantes de invierno",
+    "img": "producto11.jpg",
+    "destacado": false,
+    "cantidad": 0
+  },
+  {
+    "id": 12,
+    "categoria": 1,
+    "precio": 44.99,
+    "descripcion": "Maceta cerámica",
+    "img": "producto12.jpg",
+    "destacado": true,
+    "cantidad": 0
+  }
+]

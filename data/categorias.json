@@ -1,0 +1,53 @@
+
+[
+  {
+    "id": 1,
+    "nombre": "Electrónica",
+    "descripcion": "Productos electrónicos y gadgets"
+  },
+  {
+    "id": 2,
+    "nombre": "Ropa",
+    "descripcion": "Prendas de vestir y accesorios"
+  },
+  {
+    "id": 3,
+    "nombre": "Hogar",
+    "descripcion": "Artículos para el hogar y decoración"
+  },
+  {
+    "id": 4,
+    "nombre": "Deportes",
+    "descripcion": "Equipamiento y ropa deportiva"
+  },
+  {
+    "id": 5,
+    "nombre": "Libros",
+    "descripcion": "Libros impresos y electrónicos"
+  },
+  {
+    "id": 6,
+    "nombre": "Juguetes",
+    "descripcion": "Juguetes y juegos para todas las edades"
+  },
+  {
+    "id": 7,
+    "nombre": "Belleza",
+    "descripcion": "Productos de cuidado personal y cosmética"
+  },
+  {
+    "id": 8,
+    "nombre": "Alimentos",
+    "descripcion": "Productos alimenticios y bebidas"
+  },
+  {
+    "id": 9,
+    "nombre": "Mascotas",
+    "descripcion": "Productos para mascotas y animales"
+  },
+  {
+    "id": 10,
+    "nombre": "Jardín",
+    "descripcion": "Herramientas y productos para jardinería"
+  }
+]

@@ -106,10 +106,10 @@
                     </div>
                     <div id="filtroPrecio">
                         <label for="precioMin">Precio mínimo: $<span id="precioMinValor">0</span></label>
-                        <input type="range" id="precioMin" name="precioMin" min="0" max="10000" step="100" value="0" oninput="actualizarPrecioMin()">
+                        <input type="range" id="precioMin" name="precioMin" min="0" max="200" step="10" value="0" oninput="actualizarPrecioMin()">
                     
-                        <label for="precioMax">Precio máximo: $<span id="precioMaxValor">100000</span></label>
-                        <input type="range" id="precioMax" name="precioMax" min="0" max="100000" step="100" value="50000" oninput="actualizarPrecioMax()">
+                        <label for="precioMax">Precio máximo: $<span id="precioMaxValor">200</span></label>
+                        <input type="range" id="precioMax" name="precioMax" min="0" max="200" step="10" value="200" oninput="actualizarPrecioMax()">
                     </div>
 
                 </div>
@@ -186,9 +186,6 @@
     <!-- aos -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/wow.min.js"></script>
-    <script>
-    new WOW().init();
-    </script>
     <script>
         AOS.init();
     </script>

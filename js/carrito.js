@@ -18,7 +18,6 @@ function agregarAlCarrito(productoId) {
   const productoEnCarrito = carrito.find(p => p.id === productoId);
   const { cantidad = 0 } = productoEnCarrito || {};
   productoEnCarrito ? productoEnCarrito.cantidad = cantidad + 1 : carrito.push({ ...producto, cantidad: 1 });
-  
   Toastify({
     text: "Agregaste un producto al carrito",
     duration: 2000,
@@ -57,19 +56,19 @@ function actualizarCantidad(productoId, nuevaCantidad) {
 function mostrarCarrito() {
   const contenedorCarrito = document.getElementById('carritoItems');
   contenedorCarrito.innerHTML = '';
-  carrito.forEach(producto => {
+  carrito.forEach(({ img, precio, descripcion, id, cantidad}) => {
       const item = document.createElement('div');
       item.className = 'carrito-item';
-      const precioTotal = producto.precio * producto.cantidad;
+      const precioTotal = precio * cantidad;
       item.innerHTML = `
-          <div class="producto-carrito-img"><img src=".${producto.imagen}" alt="imagen-${producto.nombre}" ></div>
+          <div class="producto-carrito-img"><img src="./img/${img}" alt="imagen-${descripcion}" ></div>
           <div class="producto-carrito-detalle">
-            <h5>${producto.nombre}</h5>
+            <h5>${descripcion}</h5>
             <div class="producto-carrito-cantidad"> 
-              Cant. <input type="number" min="1" size="2" value="${producto.cantidad}" onchange="actualizarCantidad(${producto.id}, this.value)">                                   
-              <button class="btn-eliminar" onclick="eliminarDelCarrito(${producto.id})"><i class="fa-solid fa-trash"></i></button>
+              Cant. <input type="number" min="1" size="2" value="${cantidad}" onchange="actualizarCantidad(${id}, this.value)">                                   
+              <button class="btn-eliminar" onclick="eliminarDelCarrito(${id})"><i class="fa-solid fa-trash"></i></button>
             </div>             
-            <h5><small>$${producto.precio}</small> - <strong>$${precioTotal}</strong></h5>       
+            <h5><small>$${precio}</small> - <strong>$${precioTotal}</strong></h5>       
           </div>
           </div>
           <hr>
